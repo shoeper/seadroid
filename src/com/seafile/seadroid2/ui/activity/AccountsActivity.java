@@ -83,7 +83,10 @@ public class AccountsActivity extends SherlockFragmentActivity {
         addAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View btn) {
-                new CreateAccountChoiceDialog().show(getSupportFragmentManager(), "Choose a server");
+                // new CreateAccountChoiceDialog().show(getSupportFragmentManager(), "Choose a server");
+                Intent intent = new Intent(AccountsActivity.this, AccountDetailActivity.class);
+                intent.putExtra("server", getString(R.string.app_url));
+                startActivity(intent);
             }
         });
         accountsView.addFooterView(footerView, null, true);
@@ -252,7 +255,7 @@ public class AccountsActivity extends SherlockFragmentActivity {
     public static final int CLOUD_SEAFILE_COM = 2;
     public static final int SHIBBOLETH_LOGIN = 3;
 
-    public static class CreateAccountChoiceDialog extends DialogFragment {
+    /*public static class CreateAccountChoiceDialog extends DialogFragment {
         // final Context context = SeadroidApplication.getAppContext();
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -290,7 +293,7 @@ public class AccountsActivity extends SherlockFragmentActivity {
                             });
             return builder.show();
         }
-    }
+    }*/
 
     /**
      * asynchronously load avatars
