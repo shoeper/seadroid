@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Seafile</string>
-  <string name="app_url">http://seafile.com</string>
-  <string name="welcome_to_seafile">Bienvenue sur Seafile</string>
+  <string name="app_name">Horizon Base</string>
+  <string name="app_url">https://ch.horizonbase.ch</string>
+  <string name="welcome_to_seafile">Bienvenue sur Horizon Base</string>
   <string name="select_account">Sélectionnez un compte pour démarrer</string>
   <string name="edit_account">Éditer</string>
   <string name="delete_account">Effacer</string>
@@ -11,7 +11,7 @@
   <string name="delete_successful">Effacé avec succès</string>
   <string name="delete_file_f">Effacer le fichier</string>
   <string name="delete_dir">Effacer le dossier</string>
-  <string name="server_hint">Serveur, par exemple cloud.seafile.com</string>
+  <string name="server_hint">Serveur, par exemple cloud.horizon_base.com</string>
   <string name="email_hint">Email</string>
   <string name="passwd_hint">Mot de passe</string>
   <string name="login">Connexion</string>
@@ -37,7 +37,7 @@
     <item>Photos/Vidéos</item>
     <item>Autres</item>
   </string-array>
-  <string name="choose_server">Choisir un serveur Seafile</string>
+  <string name="choose_server">Choisir un serveur Horizon Base</string>
   <string name="network_down">Absence de connexion réseau</string>
   <string name="invalid_server_address">Nom de serveur invalide</string>
   <string name="err_server_andress_empty">Le nom de serveur ne peut pas être vide</string>
@@ -87,14 +87,14 @@
   <string name="dir_empty">Ce dossier est vide</string>
   <string name="no_repo">Vous n\'avez pas encore de bibliothèque</string>
   <string name="no_app_available">Aucune application disponible</string>
-  <string name="add_to_seafile">Ajouter à Seafile</string>
+  <string name="add_to_seafile">Ajouter à Horizon Base</string>
   <string name="ok">OK</string>
-  <string name="no_account">Merci de créer un compte dans Seafile pour commencer</string>
+  <string name="no_account">Merci de créer un compte dans Horizon Base pour commencer</string>
   <string name="no_library">Vous n\'avez pas encore de bibliothèque</string>
   <string name="choose_an_account">Choisir un compte</string>
   <string name="choose_a_library">Choisir une bibliothèque</string>
   <string name="choose_a_folder">Choisir un fichier</string>
-  <string name="load_accounts_fail">Échec du chargement des comptes seafile</string>
+  <string name="load_accounts_fail">Échec du chargement des comptes Horizon Base</string>
   <string name="load_libraries_fail">Échec du chargement des bibliothèques</string>
   <string name="load_dir_fail">Échec du chargement du contenu de ce dossier</string>
   <string name="not_supported_share">Ce type de partage n\'est pas supporté</string>
@@ -235,16 +235,12 @@
   <string name="settings_about_author_title">A propos de l\'auteur</string>
   <string name="settings_about_author_info">
         <![CDATA[
-        <h5>Client Seafile Android </h5>
+        <h5>Client Horizon Base Android </h5>
         <p>%s</p>
         <h5>Nous contacter</h5>
-        <p>
-            Twitter: Seafile<br>
-            Email: support@seafile.com<br>
-        </p>
         <h5>Contribution</h5>
         <p>https://github.com/haiwen/seadroid.git</P>
-        <h5>Copyright ©2013-2014 Seafile Ltd.</h5>
+        <h5>Copyright ©2015 Horizon Base Ltd.</h5>
         ]]>
     </string>
   <string name="settings_advance_feature_title">FONCTIONNALITÉ AVANCÉE</string>
@@ -266,6 +262,6 @@
   <string name="saf_thumbnail_not_found_exception">Impossible de trouver/ouvrir la vignette %s</string>
   <string name="saf_file_not_downloaded_exception">Impossible de télécharger le fichier %s depuis le serveur.</string>
   <string name="saf_write_diretory_exception">Impossible d\'ouvrir le répertoire en lecture/écriture.</string>
-  <string name="saf_account_not_found_exception">Impossible de trouver un compte Seafile.</string>
+  <string name="saf_account_not_found_exception">Impossible de trouver un compte Horizon Base.</string>
   <!--shibboleth SSO-->
 </resources>

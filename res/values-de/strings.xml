@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Seafile</string>
-  <string name="app_url">http://seafile.com</string>
-  <string name="welcome_to_seafile">Willkommen bei Seafile</string>
+  <string name="app_name">Horizon Base</string>
+  <string name="app_url">https://ch.horizonbase.ch/</string>
+  <string name="welcome_to_seafile">Willkommen bei Horizon Base</string>
   <string name="select_account">Bitte ein Konto auswählen, um zu beginnen</string>
   <string name="edit_account">Bearbeiten</string>
   <string name="delete_account">Löschen</string>
@@ -11,7 +11,7 @@
   <string name="delete_successful">Erfolgreich gelöscht</string>
   <string name="delete_file_f">Datei löschen</string>
   <string name="delete_dir">Ordner löschen</string>
-  <string name="server_hint">Server, z.B. cloud.seafile.com</string>
+  <string name="server_hint">Server, z.B. cloud.horizon_base.com</string>
   <string name="email_hint">E-Mail</string>
   <string name="passwd_hint">Passwort</string>
   <string name="login">Anmelden</string>
@@ -37,7 +37,7 @@
     <item>Fotos/Filme</item>
     <item>Andere</item>
   </string-array>
-  <string name="choose_server">Bitte einen Seafile-Server auswählen</string>
+  <string name="choose_server">Bitte einen Horizon Base-Server auswählen</string>
   <string name="network_down">Keine Netzwerkverbindung</string>
   <string name="invalid_server_address">Ungültige Serveradresse</string>
   <string name="err_server_andress_empty">Serveradresse darf nicht leer sein</string>
@@ -87,14 +87,14 @@
   <string name="dir_empty">Dieser Ordner ist leer</string>
   <string name="no_repo">Sie haben noch keine Bibliotheken angelegt</string>
   <string name="no_app_available">Es konnte keine Anwendung gefunden werden</string>
-  <string name="add_to_seafile">Zu Seafile hinzufügen</string>
+  <string name="add_to_seafile">Zu Horizon Base hinzufügen</string>
   <string name="ok">OK</string>
   <string name="no_account">Bitte zuerst ein Konto einrichten</string>
   <string name="no_library">Sie haben noch keine Bibliotheken angelegt</string>
   <string name="choose_an_account">Ein Konto auswählen</string>
   <string name="choose_a_library">Eine Bibliothek auswählen</string>
   <string name="choose_a_folder">Einen Ordner auswählen</string>
-  <string name="load_accounts_fail">Das Seafile-Konto konnte nicht geladen werden</string>
+  <string name="load_accounts_fail">Das Horizon Base-Konto konnte nicht geladen werden</string>
   <string name="load_libraries_fail">Bibliotheken konnten nicht geladen werden</string>
   <string name="load_dir_fail">Der Inhalt des Ordners konnte nicht geladen werden</string>
   <string name="not_supported_share">Diese Art der Freigabe wird nicht unterstützt</string>
@@ -234,18 +234,15 @@
   <string name="settings_about_version_title">App Version</string>
   <string name="settings_about_author_title">Über den Autor</string>
   <string name="settings_about_author_info">
-<![CDATA[
-<h5>Seafile Andoird Client</h5>
-<p>%s</p>
-<h5>Kontakt</h5>
-<p>
-Twitter: Seafile<br>
-Email: support@seafile.com<br>
-</p>
-<h5>Mitwirkung</h5>
-<p>https://github.com/haiwen/seadroid.git</P>
-<h5>Copyright ©2013-2014 Seafile Ltd.</h5>
-]]></string>
+      <![CDATA[
+      <h5>Horizon Base Andoird Client</h5>
+      <p>%s</p>
+      <h5>Kontakt</h5>
+      <h5>Mitwirkung</h5>
+      <p>https://github.com/haiwen/seadroid.git</P>
+      <h5>Copyright ©2015 Horizon Base Ltd.</h5>
+      ]]>
+  </string>
   <string name="settings_advance_feature_title">ERWEITERTE FUNKTIONEN</string>
   <string name="settings_cache_title">Größe des Cache</string>
   <string name="settings_clear_cache_title">Cache löschen</string>
@@ -265,6 +262,6 @@ Email: support@seafile.com<br>
   <string name="saf_thumbnail_not_found_exception">Konnte Vorschaubild %s nicht finden/öffnen.</string>
   <string name="saf_file_not_downloaded_exception">Datei %s konnte nicht vom Server heruntergeladen werden.</string>
   <string name="saf_write_diretory_exception">Das Verzeichnis konnte nicht zum Lesen oder Schreiben geöffnet werden.</string>
-  <string name="saf_account_not_found_exception">Das Seafile Konto wurde nicht gefunden.</string>
+  <string name="saf_account_not_found_exception">Das Horizon Base Konto wurde nicht gefunden.</string>
   <!--shibboleth SSO-->
 </resources>

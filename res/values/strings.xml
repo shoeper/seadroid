@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Seafile</string>
-    <string name="app_url">http://seafile.com</string>
-    <string name="welcome_to_seafile">Welcome to Seafile</string>
+    <string name="app_name">Horizon Base</string>
+    <string name="app_url">https://ch.horizonbase.ch</string>
+    <string name="welcome_to_seafile">Welcome to Horizon Base</string>
     <string name="select_account">Choose an account to start</string>
     <string name="edit_account">Edit</string>
     <string name="delete_account">Delete</string>
@@ -11,7 +11,7 @@
     <string name="delete_successful">Deleted successfully</string>
     <string name="delete_file_f">Delete file</string>
     <string name="delete_dir">Delete folder</string>
-    <string name="server_hint">Server, like cloud.seafile.com</string>
+    <string name="server_hint">Server, like cloud.horizon_base.com</string>
     <string name="email_hint">Email</string>
     <string name="passwd_hint">Password</string>
     <string name="login">Login</string>
@@ -38,11 +38,11 @@
         <item>Photos/Videos</item>
         <item>Other</item>
     </string-array>
-    <string name="choose_server">Choose a Seafile Server</string>
+    <string name="choose_server">Choose a Horizon Base Server</string>
     <string-array name="choose_server_array">
-        <item>Private Seafile Server</item>
+        <item>Private Horizon Base Server</item>
         <item>SeaCloud.cc</item>
-        <item>cloud.seafile.com</item>
+        <item>cloud.horizon_base.com</item>
         <item>Shibboleth Login</item>
     </string-array>
     <string name="network_down">No network connection</string>
@@ -95,14 +95,14 @@
     <string name="dir_empty">This folder is empty</string>
     <string name="no_repo">You have no libraries yet</string>
     <string name="no_app_available">No app can be found</string>
-    <string name="add_to_seafile">Add to Seafile</string>
+    <string name="add_to_seafile">Add to Horizon Base</string>
     <string name="ok">OK</string>
-    <string name="no_account">Please setup an account in Seafile first</string>
+    <string name="no_account">Please setup an account in Horizon Base first</string>
     <string name="no_library">You have no library yet</string>
     <string name="choose_an_account">Choose an account</string>
     <string name="choose_a_library">Choose a library</string>
     <string name="choose_a_folder">Choose a folder</string>
-    <string name="load_accounts_fail">Failed to load seafile accounts</string>
+    <string name="load_accounts_fail">Failed to load Horizon Base accounts</string>
     <string name="load_libraries_fail">Failed to load libraries</string>
     <string name="load_dir_fail">Failed to load contents of this folder</string>
     <string name="not_supported_share">This type of share is not supported</string>
@@ -249,16 +249,11 @@
     <string name="settings_about_author_title">About Author</string>
     <string name="settings_about_author_info">
         <![CDATA[
-        <h5>Seafile Andoird Client</h5>
+        <h5>Horizon Base Andoird Client</h5>
         <p>%s</p>
-        <h5>Contact Us</h5>
-        <p>
-            Twitter: Seafile<br>
-            Email: support@seafile.com<br>
-        </p>
         <h5>Contribution</h5>
         <p>https://github.com/haiwen/seadroid.git</P>
-        <h5>Copyright ©2013-2014 Seafile Ltd.</h5>
+        <h5>Copyright ©2015 Horizon Base Ltd.</h5>
         ]]>
     </string>
 
@@ -286,7 +281,7 @@
     <string name="saf_thumbnail_not_found_exception">Could not find/open thumbnail %s.</string>
     <string name="saf_file_not_downloaded_exception">Could not download file %s from server.</string>
     <string name="saf_write_diretory_exception">Can not open directory for reading/writing.</string>
-    <string name="saf_account_not_found_exception">Could not find Seafile account.</string>
+    <string name="saf_account_not_found_exception">Could not find Horizon Base account.</string>
 
     <!-- shibboleth SSO -->
     <string name="shib_server_url_empty">Server is empty!</string>
