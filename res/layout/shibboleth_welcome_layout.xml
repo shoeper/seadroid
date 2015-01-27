@@ -31,7 +31,7 @@
             android:layout_marginStart="@dimen/cb_padding_left"
             android:layout_marginTop="@dimen/cb_padding_top"
             android:onClick="onHttpsCheckboxClicked"
-            android:button="@drawable/checkbox_btn_holo_light"
+            android:button="@drawable/checkbox_btn_check_holo_light"
             android:textSize="@dimen/cb_btn_txt_size"
             android:text="@string/shib_add_https_prefix" />
 
