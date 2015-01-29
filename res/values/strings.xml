@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Horizon Base</string>
+    <string name="app_name">Horizonbase</string>
     <string name="app_url">https://ch.horizonbase.ch</string>
-    <string name="welcome_to_seafile">Welcome to Horizon Base</string>
+    <string name="welcome_to_seafile">Welcome to Horizonbase</string>
     <string name="select_account">Choose an account to start</string>
     <string name="edit_account">Edit</string>
     <string name="delete_account">Delete</string>
@@ -38,9 +38,9 @@
         <item>Photos/Videos</item>
         <item>Other</item>
     </string-array>
-    <string name="choose_server">Choose a Horizon Base Server</string>
+    <string name="choose_server">Choose a Horizonbase Server</string>
     <string-array name="choose_server_array">
-        <item>Private Horizon Base Server</item>
+        <item>Private Horizonbase Server</item>
         <item>SeaCloud.cc</item>
         <item>cloud.horizon_base.com</item>
         <item>Shibboleth Login</item>
@@ -95,14 +95,14 @@
     <string name="dir_empty">This folder is empty</string>
     <string name="no_repo">You have no libraries yet</string>
     <string name="no_app_available">No app can be found</string>
-    <string name="add_to_seafile">Add to Horizon Base</string>
+    <string name="add_to_seafile">Add to Horizonbase</string>
     <string name="ok">OK</string>
-    <string name="no_account">Please setup an account in Horizon Base first</string>
+    <string name="no_account">Please setup an account in Horizonbase first</string>
     <string name="no_library">You have no library yet</string>
     <string name="choose_an_account">Choose an account</string>
     <string name="choose_a_library">Choose a library</string>
     <string name="choose_a_folder">Choose a folder</string>
-    <string name="load_accounts_fail">Failed to load Horizon Base accounts</string>
+    <string name="load_accounts_fail">Failed to load Horizonbase accounts</string>
     <string name="load_libraries_fail">Failed to load libraries</string>
     <string name="load_dir_fail">Failed to load contents of this folder</string>
     <string name="not_supported_share">This type of share is not supported</string>
@@ -249,11 +249,11 @@
     <string name="settings_about_author_title">About Author</string>
     <string name="settings_about_author_info">
         <![CDATA[
-        <h5>Horizon Base Andoird Client</h5>
+        <h5>Horizonbase Andoird Client</h5>
         <p>%s</p>
         <h5>Contribution</h5>
         <p>https://github.com/haiwen/seadroid.git</P>
-        <h5>Copyright ©2015 Horizon Base Ltd.</h5>
+        <h5>Copyright ©2015 Horizonbase Ltd.</h5>
         ]]>
     </string>
 
@@ -281,7 +281,7 @@
     <string name="saf_thumbnail_not_found_exception">Could not find/open thumbnail %s.</string>
     <string name="saf_file_not_downloaded_exception">Could not download file %s from server.</string>
     <string name="saf_write_diretory_exception">Can not open directory for reading/writing.</string>
-    <string name="saf_account_not_found_exception">Could not find Horizon Base account.</string>
+    <string name="saf_account_not_found_exception">Could not find Horizonbase account.</string>
 
     <!-- shibboleth SSO -->
     <string name="shib_server_url_empty">Server is empty!</string>
