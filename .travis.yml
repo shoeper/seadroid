@@ -7,22 +7,16 @@ android:
   components:
       - tools
       - platform-tools
-      - build-tools-25.0.2
+      - build-tools-27.0.3
       - android-27
       - extra-android-support
       - extra-android-m2repository
-  licenses:
-      - android-sdk-preview-license-.+
-      - android-sdk-license-.+
-      - google-gdk-license-.+
 addons:
   sonarqube:
     organization: "shoeper-github"
     branches:
      - cleanup
      - master
-before_install:
-    - yes | sdkmanager "platforms;android-27"
 script:
     - cp app/key.properties.example app/key.properties
     - cp app/key.properties.example app/debugkey.properties
